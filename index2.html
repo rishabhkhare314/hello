@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <style>
+        #text {
+            display: none;
+        }
+        #box1 {
+            display: none;
+        }
+        #box{
+            height: 100px;
+            width: 100px;
+            background-color:aqua
+        }
+        #text {
+            margin-top: 50px;
+            background-color:cadetblue;
+            letter-spacing: 1px;
+            font-size: 18px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+
+        $("document").ready(function () {
+            $("#fade-in").on("click", function () {
+                $("#text").fadeIn("3000");
+            });
+            $("#fade-out").on("click", function () {
+                $("#text").fadeOut("3000");
+            });
+            $("#Slide-down").on("click", function () {
+                $("#text").slideDown("3000");
+            });
+            $("#Slide-up").on("click", function () {
+                $("#text").slideUp("fast");
+            });
+            $("#Slide-toggle").on("click", function () {
+                $("#text").slideToggle("slow");
+            });
+            $("#toggle").on("click", function () {
+                $("#text").toggle("slow");
+            });
+            $("#right").on("click", function () {
+                $("#box").animate({width : "300px"});
+            });
+            $("#left").on("click",function(){
+                $("#box").animate({width:"150px"});
+            });
+            $("#down").on("click",function(){
+                $("#box").animate({height : "400px"})
+            })
+            $("#up").on("click",function(){
+                $("#box").animate({height : "100px"})
+            })
+            $("#spread").on("click",function(){
+                $("#box").animate({ width:"400px" , height : "400px"},"3000px")
+            })
+        })
+
+    </script>
+    <h3>
+        <a href="#" id="fade-in">Fade IN</a> ||
+        <a href="#" id="fade-out">Fade Out</a>||
+        <a href="#" id="Slide-down">Slide Bottom</a> ||
+        <a href="#" id="Slide-up">Slide Up</a> ||
+        <a href="#" id="Slide-toggle">Slide Toggle</a> ||
+        <a href="#" id="toggle">Toggle</a> ||
+        <a href="#" id="right">Spread Right</a> ||
+        <a href="#" id="left">Spread Left</a> ||
+        <a href="#" id="down">Spread Down</a> ||
+        <a href="#" id="up">Spread Up</a> ||
+        <a href="#" id="spread">Spread </a> 
+
+    </h3>
+    <div id="box"></div>
+    <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ad excepturi, corrupti illum dolorum
+        accusantium dolorem cupiditate ratione qui odit dolor repellendus. Odit corporis nam culpa distinctio ab
+        repellat consectetur!
+    </div>
+    <div id="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ad excepturi, corrupti illum dolorum
+        accusantium dolorem cupiditate ratione qui odit dolor repellendus. Odit corporis nam culpa distinctio ab
+        repellat consectetur!
+        Laboriosam natus quasi officia, ipsam recusandae, reiciendis corrupti quia tenetur odit eos odio perspiciatis
+        consequuntur. Facere repellendus molestias a doloribus possimus, obcaecati distinctio nisi! Ut minus ducimus
+        quos laboriosam doloribus.
+        Magni libero voluptatibus, natus officiis explicabo nihil maiores pariatur enim provident ipsam accusantium
+        facere quasi magnam repudiandae, dolores atque, excepturi inventore cum. Exercitationem ullam minima nesciunt
+        molestiae in recusandae odit?
+        Alias quia doloribus consequatur nisi nihil minima aspernatur error nulla, cumque consequuntur aperiam expedita
+        exercitationem, dolor sint sequi at magni nobis doloremque quasi! Modi aspernatur ea doloremque sunt provident
+        eveniet!
+        Suscipit rerum atque porro sint quos omnis excepturi illum odio tempore, alias expedita, pariatur et molestiae
+        ea delectus, facere amet cumque debitis eos. Ipsum veritatis voluptatem itaque! Amet, aut unde.
+        Sit voluptatibus ipsam ab eos nostrum pariatur odit assumenda magnam quaerat, asperiores eligendi commodi
+        necessitatibus atque ad omnis voluptates alias maiores architecto iure fugiat a soluta ipsum? Quo, veniam totam!
+    </div>
+</body>
+
+</html>
