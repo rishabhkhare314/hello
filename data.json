@@ -41,7 +41,7 @@
             "semester": 5,
             "dateOfBirth": "10-12-1996",
             "contact": 8460556732,
-            "email": "shahdhairya@gmail.com",
+            "email": "shahdhairya@gmail.com"
           },
           {
             "studentID": 5,
@@ -52,7 +52,7 @@
             "semester": 3,
             "dateOfBirth": "18-01-1999",
             "contact": 8901265437,
-            "email": "jeenalpatel@gmail.com",
+            "email": "jeenalpatel@gmail.com"
           },
           {
             "studentID": 6,
@@ -63,6 +63,6 @@
             "semester": 8,
             "dateOfBirth": "22-06-1998",
             "contact": 8460123456,
-            "email": "alia.bhatt@rapidops.com",
+            "email": "alia.bhatt@rapidops.com"
           }
 ]
