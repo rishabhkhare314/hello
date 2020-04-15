@@ -92,47 +92,7 @@
             "dateOfBirth": "10-12-1996",
             "contact": 8460556732
           },
-    {
-        "firstName": "Alia",
-        "lastName": "Bhatt",
-        "branch": "IT",
-        "dateOfBirth": "22-06-1998",
-        "contact": 8460123456,
-        "email": "alia.bhatt@rapidops.com"
-      },
-      {
-        "firstName": "Vaibhav",
-        "lastName": "Kabira",
-        "branch": "IT",
-        "dateOfBirth": "13-05-1999",
-        "contact": 9876512344,
-        "email": "kabira.vaibhav@gmail.com"
-      },
-      {
-        "firstName": "Ananya",
-        "lastName": "Pandey",
-        "branch": "CS",
-        "dateOfBirth": "29-09-1999",
-        "contact": 8488898765,
-        "email": "ananya.pandey@gmail.com"
-      },
-      {
-        "firstName": "Joe",
-        "lastName": "Dawson",
-        "branch": "CS",
-        "dateOfBirth": "17-07-1997",
-        "contact": 9988666756,
-        "email": "joe.dawson@gmail.com"
-      },
-      {
-        "firstName": "Kane",
-        "lastName": "Williamson",
-        "branch": "IT",
-        "dateOfBirth": "30-03-1997",
-        "contact": 9867542310,
-        "email": "kanewilliamson@gmail.com"
-      },
-
+    
           {
             "studentID": 10,
             "firstName": "supreme",
