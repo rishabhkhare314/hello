@@ -92,7 +92,115 @@
             "dateOfBirth": "10-12-1996",
             "contact": 8460556732
           },
-    
+        {
+            "studentID": 11,
+            "firstName": "Rahul",
+            "lastName": "Kumar",
+            "rollNo": 13035,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "12-05-1999",
+            "contact": 8460556732
+          },
+
+        {
+            "studentID": 12,
+            "firstName": "Rahul",
+            "lastName": "Gupta",
+            "rollNo": 13036,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "13-05-1998",
+            "contact": 8460556342
+          },
+
+        {
+            "studentID": 13,
+            "firstName": "Tony",
+            "lastName": "stark",
+            "rollNo": 13037,
+            "branch": "CS",
+            "semester": 7,
+            "dateOfBirth": "18-08-1999",
+            "contact": 9060556732
+          },
+
+        {
+            "studentID": 14,
+            "firstName": "Shubham",
+            "lastName": "Sangam",
+            "rollNo": 13038,
+            "branch": "it",
+            "semester": 8,
+            "dateOfBirth": "12-09-1999",
+            "contact": 9860556732
+          },
+
+          {
+            "studentID": 15,
+            "firstName": "chirag",
+            "lastName": "Singhal",
+            "rollNo": 13039,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "13-05-1998",
+            "contact":9560556732
+          },
+
+          {
+            "studentID": 16,
+            "firstName": "Aniket",
+            "lastName": "singh",
+            "rollNo": 13040,
+            "branch": "it",
+            "semester": 8,
+            "dateOfBirth": "14-05-1998",
+            "contact": 9060556732
+          },
+
+        {
+            "studentID": 17,
+            "firstName": "abhishek",
+            "lastName": "Patel",
+            "rollNo": 13041,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "15-05-1999",
+            "contact": 6660556732
+          },
+
+        {
+            "studentID": 18,
+            "firstName": "abhinav",
+            "lastName": "dwivedi",
+            "rollNo": 13042,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "17-05-1999",
+            "contact": 8960556732
+          },
+
+        {
+            "studentID": 19,
+            "firstName": "Yogesh",
+            "lastName": "",
+            "rollNo": 13043,
+            "branch": "CS",
+            "semester": 8,
+            "dateOfBirth": "19-05-1999",
+            "contact": 6560556732
+          },
+
+        {
+            "studentID": 20,
+            "firstName": "Sumit",
+            "lastName": "kumar",
+            "rollNo": 13044,
+            "branch": "it",
+            "semester": 8,
+            "dateOfBirth": "12-12-1998",
+            "contact": 8970556732
+          }
           {
             "studentID": 10,
             "firstName": "supreme",
